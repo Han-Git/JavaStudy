@@ -1,0 +1,29 @@
+package ch6;
+
+public class Car {
+	String color;
+	String gearType;
+	int door;
+	
+	Car() {
+		// TODO Auto-generated constructor stub
+		this("white","auto",4);
+	}
+	
+	Car(String color){
+		this(color,"auto",4);
+	}
+	
+	Car(Car c){
+		color = c.color;
+		gearType = c.gearType;
+		door = c.door;
+	}
+	
+	Car(String color, String gearType, int door){
+		this.color = color;
+		this.gearType = gearType;
+		this.door = door;
+	}
+	
+}
