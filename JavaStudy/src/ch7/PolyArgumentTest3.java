@@ -114,4 +114,3 @@ class Buyer3 {	// 고객, 물건을 사는 사람
 		System.out.println("구입하신 제품은 "+itemList+"입니다.");
 	}
 }
-
