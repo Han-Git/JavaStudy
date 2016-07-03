@@ -25,7 +25,6 @@ class ChildBind extends ParentBind{
 	int x = 200;
 	
 	void method(){
-		System.out.println("April I Love you!");
 		System.out.println("ChildBind method()");
 	}
 }
