@@ -12,6 +12,11 @@
 <b>request.getParameter() 메서드 사용</b><br>
 name 파라미터 = <%= request.getParameter("name") %><br>
 address 파라미터 = <%= request.getParameter("address") %><br>
+
+<b>request.getParameter() 메서드 사용</b><br>
+name 파라미터 = <%= request.getParameter("name2") %><br>
+address 파라미터 = <%= request.getParameter("address2") %><br>
+
 <p>
 <b>request.getParameterValues() 메서드 사용</b><br>
 <%
